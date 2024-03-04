@@ -1,0 +1,32 @@
+{
+  "name": "akamai-sensordata-decrypt",
+  "version": "1.0.0",
+  "description": "A CLI tool for decrypting Akamai v2 sensor data, facilitating the recreation of the original data from an encrypted sensor_data string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sensor-decrypt": "./index.js"
+  },
+  "keywords": [
+    "akamai",
+    "sensor",
+    "decrypt",
+    "data",
+    "cli"
+  ],
+  "author": "glizzykingdreko <glizzykingdreko@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glizzykingdreko/akamai-sensordata-decrypt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glizzykingdreko/akamai-sensordata-decrypt/issues"
+  },
+  "homepage": "https://github.com/glizzykingdreko/akamai-sensordata-decrypt#readme"
+}
